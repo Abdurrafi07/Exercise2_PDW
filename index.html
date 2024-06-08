@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan Kucing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Cat Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Jenis">Jenis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Form">Pembelian</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">Tentang</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <div id="datetime" style="color: white;"></div>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <section id="Home">
+        <div class="header">
+            <h1>Cat Store</h1>
+            <p>Tempat beli kucing sehat</p>
+        </div>
+    </section>
+
+    <section >
+        <div class="jumbotron">
+            <video src="Temui si Meong kecil yang selalu ingin tahu!.mp4" autoplay loop></video>
+        </div>
+    </section>
+
+    <section id="Jenis">
+        <h1>Jenis Jenis Kucing Yang Tersedia</h1>
+        <div class="game-list">
+            <div class="game-item">
+                    <img src="./assets/Anggora.png" alt="Anggora">
+                    <p>Anggora</p>
+            </div>
+            <div class="game-item">
+                    <img src="./assets/Maine Coon.png" alt="Maine Coon">
+                    <p>Maine Coon</p>
+            </div>
+            <div class="game-item">
+                    <img src="./assets/Munchkin.png" alt="Munchkin">
+                    <p>Munchkin</p>
+            </div>
+            <div class="game-item">
+                    <img src="./assets/Ragdoll.png" alt="Ragdoll">
+                    <p>Ragdoll</p>
+            </div>
+            <div class="game-item">
+                    <img src="./assets/Scottish Fold.png" alt="Scottish Fold">
+                    <p>Scottish Fold</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="Form">
+        <div class="background-container">
+            <div class="container">
+                <h2>Formulir Pembelian</h2>
+                <form id="peminatanForm">
+                    <label for="employeeName">Nama:</label>
+                    <input type="text"><br>
+    
+                    <label for="employeeAge">Alamat:</label>
+                    <input type="text"><br>
+    
+                    <label for="employeeEmail">Email:</label>
+                    <input type="email"><br>
+
+                    <label for="skills">Pilih Jenis Kucing:</label>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="" name="" value="">
+                        <label for=""> Anggora </label>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="" name="" value="">
+                        <label for=""> Maine Coon </label>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="" name="" value="">
+                        <label for=""> Munchkin </label>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="" name="" value="">
+                        <label for=""> Ragdoll </label>
+                    </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="" name="" value="">
+                        <label for=""> Scottish Fold </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="" type="radio" id="" name="" value="Jantan">
+                        <label class="Jantan" for="">Jantan</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="" type="radio" id="" name="" value="Betina">
+                        <label class="Betina" for="">Betina</label>
+                      </div>
+                    <button type="button" onclick="handleSubmission()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="About">
+        <div class="card">
+            <h5 class="card-header">Tentang</h5>
+            <div class="card-body">
+              <h5 class="card-title">Email : Catstore@mail.com</h5>
+              <p class="card-text">Alamat : Sukabumi</p>
+            </div>
+          </div>
+    </section>
+
+<script src="main.js"></script>
+</body>
+</html>
